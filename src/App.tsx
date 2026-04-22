@@ -67,7 +67,7 @@ const Navbar = () => {
     <nav className="fixed top-10 left-0 w-full z-40 px-6 py-4 flex items-center justify-between premium-blur">
       <div className="flex items-center gap-3">
         <img 
-          src="/logo.png" 
+          src="https://collection.cloudinary.com/dyhq6paug/83fc8bd85cc1d5d2e296cc34658a64cd" 
           alt="Home of Luck" 
           className="w-14 h-14 object-contain drop-shadow-[0_0_10px_rgba(255,215,0,0.3)]"
           referrerPolicy="no-referrer"
@@ -362,7 +362,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 flex flex-col items-center gap-8">
         <div className="flex flex-col items-center gap-4">
           <img 
-            src="/logo.png" 
+            src="https://collection.cloudinary.com/dyhq6paug/83fc8bd85cc1d5d2e296cc34658a64cd" 
             alt="Home of Luck" 
             className="w-32 h-32 object-contain"
             referrerPolicy="no-referrer"
