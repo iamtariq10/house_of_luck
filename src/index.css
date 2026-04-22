@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+@theme {
+  --font-sans: "Poppins", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-gold: #FFD700;
+  --color-gold-dark: #B8860B;
+  --color-emerald-deep: #002B1B;
+  --color-emerald: #006845;
+  --color-navy-dark: #020806;
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--color-navy-dark)] text-white font-sans scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .text-gold-gradient {
+    @apply bg-linear-to-b from-gold to-gold-dark bg-clip-text text-transparent;
+  }
+  
+  .bg-gold-gradient {
+    @apply bg-linear-to-b from-gold to-gold-dark;
+  }
+
+  .premium-blur {
+    @apply backdrop-blur-md bg-black/60 border border-white/10;
+  }
+
+  .bg-emerald-gradient {
+    @apply bg-linear-to-tr from-emerald-deep to-emerald;
+  }
+}
